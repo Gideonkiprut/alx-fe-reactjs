@@ -1,13 +1,10 @@
-function App() {
+const WelcomeMessage = () => {
     return (
       <div>
-        <Header />
-        <MainContent />
-        <Footer />
-        <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+        <h2>Hello everyone, I am learning React at ALX!</h2>
       </div>
     );
-  }
+  };
   
-  export default App;
+  export default WelcomeMessage;
   
